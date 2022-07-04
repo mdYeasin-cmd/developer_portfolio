@@ -71,3 +71,44 @@ a{
     margin-top: 15px;
 }
 /* //Banner Section CSS End */
+
+/* Dream Section CSS Start */
+#dreamBig{
+    padding: 100px 0;
+    background-image: url('../images/dream-bg.png');
+    background-repeat: no-repeat;
+    background-position: center right;
+}
+#dreamBig .row{
+    align-items: center;
+}
+#dreamBig .dreamBig_img{
+    width: 40%;
+}
+#dreamBig .dreamBig_img img{
+    width: 100%;
+}
+#dreamBig .dreamBig_content{
+    width: 60%;
+    padding-left: 80px;
+}
+#dreamBig .dreamBig_content h2{
+    font-size: 50px;
+    font-weight: 500;
+}
+#dreamBig .dreamBig_content h3{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 30px 0 20px;
+}
+#dreamBig .dreamBig_content a.resumeBtn{
+    display: inline-block;
+    font-weight: 700;
+    color: #fff;
+    padding: 10px 40px;
+    text-transform: uppercase;
+    background-image: linear-gradient(to right, orange, tomato);
+    border-radius: 5px;
+    margin-top: 15px;
+}
+/* //Dream Section CSS End */
