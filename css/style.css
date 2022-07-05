@@ -112,3 +112,43 @@ a{
     margin-top: 15px;
 }
 /* //Dream Section CSS End */
+
+/* Experience Section CSS Start */
+#experience{
+    padding-bottom: 60px;
+    background-image: url('../images/exp-bg.png');
+    background-repeat: no-repeat;
+    background-position: center left;
+}
+#experience .row{
+    margin-top: 30px;
+}
+#experience h2.exp_head{
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+}
+#experience .experience_item{
+    width: 40%;
+    box-shadow: 0 0 20px gray;
+    padding: 30px 30px 60px;
+}
+#experience .experience_item:first-child{
+    margin-right: 10%;
+    border-left: 6px solid tomato;
+}
+#experience .experience_item:last-child{
+    border-left: 6px solid blue;
+}
+#experience .experience_item h4{
+    color: orange;
+    margin: 20px 0;
+}
+/* //Experience Section CSS End */
+
+/* Footer Section CSS Start */
+footer{
+    text-align: center;
+    padding: 15px 0;
+}
+/* //Footer Section CSS End */
